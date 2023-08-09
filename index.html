@@ -5,27 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./main.css">
+
 </head>
 <body>
-    <header class="navbar navbar-expand-lg sticky-top">
+    <header class="navbar navbar-expand-lg sticky-top p-4">
         <div class="container">
-            <h1>Nome do restaurante</h1>
-            <nav>
-                <li>
-                    <a href="">Sobre o restaurante</a>
-                </li>
-                <li>
-                    <a href="">Eventos</a>
-                </li>
-                <li>
-                    <a href="">Cardápio</a>
-                </li>
-                <li>
-                    <a href="">Fale conosco</a>
-                </li>
+            <h1 class="navbar-brand m-0">Nome do restaurante</h1>
+            <!--Menu amburg-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <!--nav-pills = links com aparência de botao-->
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex ">
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link active" href="">
+                            <!--me-1 = margem à direira (margin-end)-->
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href=""> 
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+               
             </nav>
         </div>
     </header>
+    <section class="carousel-slide" id="sobre-o-restaurante">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
