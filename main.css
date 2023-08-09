@@ -15,10 +15,22 @@ body{
 .navbar-brand:hover{
     color: #fff;
 }
-.navbar-brand{
-    font-family: Pacifico, cursiva;
-}
+
 
 .navbar-toggler{
     background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: Pacifico, cursiva;
+}
+
+
+
+#sobre-o-restaurante{
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #e15641;
 }
